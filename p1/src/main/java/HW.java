@@ -1,41 +1,35 @@
-public class HW {
+public class HW{
+
+    public static void main (String[] args) {
+
+        голова(", дай денег" );
+        голова(", че как дила?");
+            int a = 4;
+            int b = 6;
+                System.out.println("Площадь прямоугольника с сторонами a и b"+" = "+ перимитр(a,b));
+
+        }
+
+        public static void голова (String text){
+
+            System.out.println( "Эй, голова"+ text);
+        }
+
+            public static int перимитр(int ax, int bx){
+
+                return ax*bx;
 
 
-    public static void main(String[] args) {
-        qwe("Братишка ");
-        qwe ("сучечки ");
-
-        int s = 5;
-
-        System.out.println("плщдьквдрт с стороной s = " + s + "="+ area(s) );
-
-        int a = 14;
-        int b = 5;
-
-        System.out.println("Площадь прямоугольника с сторонами a и b "+ " = " + area(a,b) );
-
-    }
+            }
 
 
 
-    public static void qwe (String text) {
 
-        int q = 12;
 
-        int w = 12;
-
-        System.out.println("Hello, " + text + q * w);
-    }
-        public static int area (int s){
-
-            return s*s;
-}
-                public static int area (int a, int b){
-                    return a*b;
-                }
 
 
 
 
 
 }
+
