@@ -1,12 +1,21 @@
+
+
 public class HW{
 
     public static void main (String[] args) {
 
         голова(", дай денег" );
         голова(", че как дила?");
-            int a = 4;
-            int b = 6;
-                System.out.println("Площадь прямоугольника с сторонами a и b"+" = "+ перимитр(a,b));
+
+
+            Square s = new Square(7);
+
+            Rectangle r = new Rectangle(4,3);
+
+        System.out.println("Площадь квадртата со сторонами " + s.l + " = " + area(s));
+
+
+                System.out.println("Площадь прямоугольника с сторонами " + r.a +" и "+  + r.b + " = " + перимитр(r));
 
         }
 
@@ -15,15 +24,19 @@ public class HW{
             System.out.println( "Эй, голова"+ text);
         }
 
-            public static int перимитр(int ax, int bx){
+            public static double перимитр(Rectangle r){
 
-                return ax*bx;
+                return r.a*r.b;
 
 
             }
 
 
+                    public static double area(Square s){
+                        return s.l*s.l;
 
+
+                    }
 
 
 
